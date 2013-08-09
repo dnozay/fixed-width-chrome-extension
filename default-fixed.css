@@ -1,0 +1,10 @@
+
+pre,    /* fixed-width element */
+code,   /* source code element */
+samp,   /* machine code sample */
+kbd,    /* keyboard input */
+tt      /* teletype */
+{
+  font-family: 'MyMonospace' monospace !important;
+  font-size: small !important;
+}

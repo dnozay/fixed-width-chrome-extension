@@ -1,0 +1,6 @@
+/* github */
+.file-code, .file-code-line, .blob-line-nums, .diff-line-num, .diff-line-code, .sha-block
+{
+    font-family: 'MyMonospace' monospace !important;
+    font-size: small !important;
+}

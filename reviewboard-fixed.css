@@ -1,0 +1,6 @@
+/* reviewboard */
+plaintext, table.sidebyside tbody th
+{
+    font-family: 'MyMonospace' monospace !important;
+    font-size: small !important;
+}

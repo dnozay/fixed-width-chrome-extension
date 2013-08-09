@@ -1,0 +1,20 @@
+{
+   "content_scripts": [ {
+      "css": [
+         "font-face.css", /* font-face definition */
+         "gmail-fixed.css", /* gmail plaintext */
+         "github-fixed.css", /* github <3 */
+         "reviewboard-fixed.css", /* code reviews */
+         "w3schools-fixed.css", /* w3schools tutorials */
+         "default-fixed.css" /* default elements */
+      ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "all_frames": true
+   } ],
+   "description": "Fixed-width font anywhere, everywhere (https://github.com/dnozay/fixed-width-chrome-extension),
+   overrides the font definition in websites to have consistent look and feel for plain/text and code snippets.",
+   "name": "Fixed-width font",
+   "permissions": [ "tabs", "http://*/", "https://*/" ],
+   "version": "0.1",
+   "manifest_version": 2
+}
