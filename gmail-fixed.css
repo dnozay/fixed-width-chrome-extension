@@ -1,11 +1,16 @@
 /* gmail */
 .gs .ii,
 textarea.Ak,
-table tbody tbody tr td font,
+.GGYB0KICACB,							/* google groups */
 div[aria-label="Message Body"],         /* compose area */
 table[aria-role="presentation"] .iA.g6, /* excerpts in conversation view */
-tr.zA.yO span.y2                        /* excerpts in inbox view */ 
+tr.zA.yO span.y2                        /* excerpts in inbox view */
 {
     font-family: 'MyMonospace' monospace !important;
     font-size: small !important;
+    background-image: url(data:image/bmp;base64,Qk1GAAAAAAAAADYAAAAoAAAAAQAAAPz///8BACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP///////////w==);
+    background-position: 640px 0px;
+    background-repeat: repeat-y;
+    /* 80 x 8px + 4px padding, > 640 so that 'ruler' is shown */
+    /* width: 644px; */
 }
